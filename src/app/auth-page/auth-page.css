@@ -1,0 +1,10 @@
+.grid-completo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #1c3d6e, #0a1f3d);
+}
+
+.grid {
+  width: 360px;
+}
