@@ -1,15 +1,17 @@
-<div class="header">
-  <div class="title">
-    <p>WebCommerce</p>
-  </div>
-
-  <div class="btn">
-    <input type="text" placeholder="Buscar Produtos" />
-    <i class="fa-solid fa-magnifying-glass icon-search"></i>
-
-  </div>
-  <div class="links">
-    <a>Login</a>
-    <a>Carrinho</a>
-  </div>
-</div>
+<mat-toolbar color="primary" class="header">
+  <span>WebCommerce </span>
+  <mat-form-field appearance="fill">
+    <mat-label>Buscar Produto</mat-label>
+    <input placeholder="Buscar Produto" matInput />
+    <button type="button" mat-icon-button matSuffix><mat-icon fontIcon="search"></mat-icon></button>
+  </mat-form-field>
+  <span class="links"></span>
+  <a class="login"
+    >Login
+    <mat-icon fontIcon=""></mat-icon>
+  </a>
+  <a class="Carrinho"
+    >Carrinho
+    <mat-icon fontIcon=""></mat-icon>
+  </a>
+</mat-toolbar>

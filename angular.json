@@ -26,8 +26,10 @@
               }
             ],
             "styles": [
+              "src/material-theme.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",

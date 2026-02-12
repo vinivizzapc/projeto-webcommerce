@@ -1,10 +1,16 @@
 import { Component, signal } from '@angular/core';
 import { AuthPage } from './auth-page/auth-page';
 import { HomePageComponent } from './home-page/home-page.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule} from '@angular/material/icon';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [AuthPage, HomePageComponent],
+  imports: [AuthPage, HomePageComponent, MatToolbarModule, MatIconModule, MatFormFieldModule, MatInputModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

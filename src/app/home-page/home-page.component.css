@@ -1,40 +1,8 @@
+.links {
+    flex: 1 1 auto;
+}
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    color: #263238;
-}
-
-.btn{
-    position: relative;
-    padding: 8px 10px;
-}
-
-
-
-input{
-    background-color: #ffffff;
-    border-radius: 3px;
-    border: 1px solid #e0e0e0;
-    color: #9E9E9E; 
-}
-
-.links a {
-    padding: 15px;
-  
-}
-
-.icon-search {
-    position: absolute;
-    font-size: 14px;
-    opacity: 0.6;
-    right: 15px;
-    top: 18px;
-    color: #1565C0;
-
-}
-
-.icon-search:focus{
-
+ background-color: #ccc;
 }
 
